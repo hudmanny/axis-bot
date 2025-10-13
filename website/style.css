@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Rubik Mono One';
+  src: url('../resources/RubikMonoOne-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+  background-color: rgb(60, 60, 60);
+  text-align: center;
+}
