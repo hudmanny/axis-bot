@@ -14,7 +14,6 @@ body {
 .top-bar {
   height: 80px;
   background-color: rgb(65, 65, 65);
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -32,9 +31,21 @@ body {
   margin-right: 15px;
 }
 .main {
-  padding-top: 85px;
+  padding-bottom: 125;
 }
 .logo {
   height: 500px;
   width: 500px;
+}
+a {
+  color: black;
+}
+.bottom-bar {
+  height: 120px;
+  background-color: rgb(65, 65, 65);
+}
+.fa-logo {
+  height: 100px;
+  width: 100px;
+  justify-content: space-between;
 }
