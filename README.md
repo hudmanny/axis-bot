@@ -5,6 +5,7 @@ A Discord bot that connects to a webpage and to ER:LC - the Roblox game.
 
 The code, scripts, assets and resources are not to be refined, polished, copied, or interfered with in any way unless posted otherwise.
 
-You may use `RubikMonoOne-Regular.ttf`as posted in Google LLC's official font documentation.
+You may use `RubikMonoOne-Regular.ttf` as posted in Google LLC's official font documentation.
 
-You can suggest things to add to this code in our Discord. A link will be posted soon.
+
+You can suggest things to add to this code in our Discord. The link is https://discord.com/3BbAnx5dYa
