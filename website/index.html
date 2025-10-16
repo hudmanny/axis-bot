@@ -9,35 +9,42 @@
 </head>
 <body>
     <div class="top">
-    <header class="top-bar">
-        <a href="./" title="Home">
-            <img src="../resources/house-solid-full.svg" class="fa-solid fa-house">
-        </a>
-        <a href="dashboard/index.html" title="Dashboard">
-            <img src="../resources/grid.svg" class="fa-solid fa-grid">
-        </a>
-    </header>
+        <header class="top-bar">
+            <a href="./index.html" title="Home">
+                <img src="../resources/house-solid-full.svg" class="fa-solid fa-house">
+            </a>
+            <a href="dashboard/index.html" title="Dashboard">
+                <img src="../resources/grid.svg" class="fa-solid fa-grid">
+            </a>
+        </header>
+    </div>
+    <div class="login-buttons">
+        <button id="login">Login</button>
+        <button id="logout">Logout</button>
+        <div id="profile"></div>
     </div>
     <main class="main">
-    <h1>nothing bot</h1>
-    <p>Nothing Bot connects to ER:LC API, Discord and this website seamlessly.</p>
-    <div class="intro">
+        <h1>nothing bot</h1>
+        <p>Nothing Bot connects to ER:LC API, Discord and this website seamlessly.</p>
+        <div class="intro">
+            <br>
+            <p>This bot, website, and Roblox combo is developed by 2 people.</p>
+        </div>
         <br>
-        <p>This bot, website, and Roblox combo is developed by 2 people.</p>
-    </div>
-    <br>
-    
-    <img src="../resources/nothing_bot.svg" class="logo">
-
-    <div class="invite">
-        <h1>Our invitation to you</h1>
-        <p><a href="https://discord.gg/3BbAnx5dYa">We invite you to be inside of our Discord server.</a> You can ask for help, suggest things, and most importantly, interact with us!</p>
-    </div>
-    <br>
-    <div class="about">
-        <h1>About us</h1>
-        <p>As previously mentioned, nothing bot is developed by only 2 people. <i>We are looking for dev's.</i> You can join our Discord for more information.</p>
-    </div>
+        <a href="https://discord.com/oauth2/authorize?client_id=1427462407986610216" target="_blank">
+            <img src="../resources/nothing-bot.svg" class="logo">
+        </a>
+        <p class="bot-invite">Click our logo to invite our bot!</p>
+        
+        <div class="invite">
+            <h1>Our invitation to you</h1>
+            <p><a href="https://discord.gg/3BbAnx5dYa">We invite you to be inside of our Discord server.</a> You can ask for help, suggest things, and most importantly, interact with us!</p>
+        </div>
+        <br>
+        <div class="about">
+            <h1>About us</h1>
+            <p>As previously mentioned, nothing bot is developed by only 2 people. <i>We are looking for dev's.</i> You can join our Discord for more information.</p>
+        </div>
     </main>
     <script src="code.js"></script>
     <div class="bottom-bar">
@@ -48,5 +55,7 @@
             <img src="../resources/github.svg" class="fa-logo fa-github">
         </a>
     </div>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+    <script src="auth.js"></script>
 </body>
 </html>

@@ -58,6 +58,7 @@ a:hover {
   height: 100px;
   width: 100px;
   justify-content: space-between;
+  padding: none;
 }
 .fa-solid:hover {
   filter: drop-shadow(0 0 15px #aeaeae);
@@ -68,4 +69,7 @@ a:hover {
   filter: drop-shadow(0 0 15px #aeaeae);
   transform: scale(1.075);
   transition: all 0.5;
+}
+.bot-invite {
+  transform: scale(0.8)
 }
