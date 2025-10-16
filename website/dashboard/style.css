@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Rubik Mono One';
+    src: url('../../resources/RubikMonoOne-Regular.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: rgb(60, 60, 60);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .main {
+    flex: 1;
+  }
+
+  .fa-solid {
+    height: 60px;
+    width: 60px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 15px;
+  }
+  .fa-logo {
+    height: 100px;
+    width: 100px;
+    justify-content: space-between;
+  }
+  .fa-logo:hover {
+    filter: drop-shadow(0 0 15px #aeaeae);
+    transform: scale(1.075);
+    transition: all 0.5;
+  }
+  .fa-solid:hover {
+    filter: drop-shadow(0 0 15px #aeaeae);
+    transform: scale(1.075);
+    transition: all 0.5;
+  }
+  .fa-solid.dashboard {
+    float: right;
+  }
+  .top-bar {
+    height: 80px;
+    background-color: rgb(65, 65, 65);
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 95;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .bottom-bar {
+    height: 120px;
+    background-color: rgb(65, 65, 65);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+  .bottom-bar a {
+    text-decoration: none;
+  }
+
+  a {
+    color: black;
+  }
+  a:hover {
+    filter: drop-shadow(0 0 15px #cfcfcfca);
+    transform: scale(0.075);
+    transition: all 0.5; 
+  }

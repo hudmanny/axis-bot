@@ -43,11 +43,13 @@ a {
 a:hover {
   filter: drop-shadow(0 0 15px #aeaeaeae);
   transform: scale(0.075);
-  transition: all 0.5;
+  transition: all 0.5; 
 }
 .bottom-bar {
   height: 120px;
   background-color: rgb(65, 65, 65);
+  border-top-left-radius: 65px;
+  border-top-right-radius: 65px;
 }
 .bottom-bar a {
   text-decoration: none;
