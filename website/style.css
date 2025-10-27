@@ -1,3 +1,4 @@
+/* Custom Fonts */
 @font-face {
   font-family: 'Rubik Mono One';
   src: url('../resources/RubikMonoOne-Regular.ttf') format('truetype');
@@ -6,6 +7,8 @@
   font-family: 'Bitcount Single Grid';
   src: url(../resources/BitcountSingleGrid.ttf) format('truetype');
 }
+
+/* Tag Properties */
 
 body {
   font-family: 'Bitcount Single Grid', sans-serif;
@@ -19,21 +22,14 @@ p {
   font-size: 1.5rem;
 }
 
+/* Class properties */
+
 .h {
   font-size: 2rem;
   font-family: 'Rubik Mono One';
 }
-
-.top-bar {
-  height: 80px;
-  background-color: #003847;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 95;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  
+.bot-invite {
+  transform: scale(0.8)
 }
 .fa-solid {
   height: 60px;
@@ -50,29 +46,24 @@ p {
   height: 500px;
   width: 500px;
 }
+.fa-logo {
+    height: 100px;
+    width: 100px;
+    justify-content: space-between;
+    padding: none;
+ }
+
+/* <a> Wraps */
+
 a {
   color: black;
-}
-a:hover {
-  filter: drop-shadow(0 0 15px #aeaeaeae);
-  transform: scale(0.075);
-  transition: all 0.5; 
-}
-.bottom-bar {
-  height: 120px;
-  background-color: #003847;
-  border-top-left-radius: 65px;
-  border-top-right-radius: 65px;
 }
 .bottom-bar a {
   text-decoration: none;
 }
-.fa-logo {
-  height: 100px;
-  width: 100px;
-  justify-content: space-between;
-  padding: none;
-}
+
+/* Hover Effects */
+
 .fa-solid:hover {
   filter: drop-shadow(0 0 15px #aeaeae);
   transform: scale(1.075);
@@ -83,6 +74,28 @@ a:hover {
   transform: scale(1.075);
   transition: all 0.5;
 }
-.bot-invite {
-  transform: scale(0.8)
+a:hover {
+  filter: drop-shadow(0 0 15px #aeaeaeae);
+  transform: scale(0.075);
+  transition: all 0.5; 
+}
+
+/* Top & Bottom Bars */
+
+.top-bar {
+  height: 80px;
+  background-color: #003847;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 95;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  
+}
+.bottom-bar {
+  height: 120px;
+  background-color: #003847;
+  border-top-left-radius: 65px;
+  border-top-right-radius: 65px;
 }

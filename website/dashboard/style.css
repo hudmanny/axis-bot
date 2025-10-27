@@ -2,10 +2,15 @@
     font-family: 'Rubik Mono One';
     src: url('../../resources/RubikMonoOne-Regular.ttf') format('truetype');
   }
+@font-face {
+  font-family: 'Bitcount Single Grid';
+  src: url(../../resources/BitcountSingleGrid.ttf) format('truetype');
+}
+/* Tag Properties */
   
   body {
-    font-family: 'Rubik Mono One', sans-serif;
-    background-color: rgb(60, 60, 60);
+    font-family: 'Bitcount Single Grid', sans-serif;
+    background: linear-gradient(360deg,rgba(0, 245, 255, 1) 0%, rgba(0, 134, 171, 1) 50%, rgba(0, 77, 165, 1) 100%);
     text-align: center;
     padding: 0px;
     margin: 0px;
@@ -16,10 +21,18 @@
     height: 100%;
     margin: 0;
   }
+  p {
+  font-size: 1.5rem;
+}
+  /* Class Properties */
+  
+  .h {
+  font-size: 2rem;
+  font-family: 'Rubik Mono One';
+}
   .main {
     flex: 1;
   }
-
   .fa-solid {
     height: 60px;
     width: 60px;
@@ -33,6 +46,9 @@
     width: 100px;
     justify-content: space-between;
   }
+
+/* Hover Effects */
+
   .fa-logo:hover {
     filter: drop-shadow(0 0 15px #aeaeae);
     transform: scale(1.075);
@@ -46,9 +62,27 @@
   .fa-solid.dashboard {
     float: right;
   }
+  a:hover {
+    filter: drop-shadow(0 0 15px #cfcfcfca);
+    transform: scale(0.075);
+    transition: all 0.5; 
+  }
+
+/* <a> Wraps */
+
+  .bottom-bar a {
+    text-decoration: none;
+  }
+
+  a {
+    color: black;
+  }
+
+/* Top & Bottom Bars */
+
   .top-bar {
     height: 80px;
-    background-color: rgb(65, 65, 65);
+    background-color: #003847;
     top: 0;
     left: 0;
     width: 100%;
@@ -58,19 +92,7 @@
   }
   .bottom-bar {
     height: 120px;
-    background-color: rgb(65, 65, 65);
+    background-color: #003847;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
 }
-  .bottom-bar a {
-    text-decoration: none;
-  }
-
-  a {
-    color: black;
-  }
-  a:hover {
-    filter: drop-shadow(0 0 15px #cfcfcfca);
-    transform: scale(0.075);
-    transition: all 0.5; 
-  }
