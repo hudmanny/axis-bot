@@ -4,7 +4,7 @@
   }
 @font-face {
   font-family: 'Bitcount Single Grid';
-  src: url(../../resources/BitcountSingleGrid.ttf) format('truetype');
+  src: url('../../resources/BitcountSingleGrid.ttf') format('truetype');
 }
 /* Tag Properties */
   
