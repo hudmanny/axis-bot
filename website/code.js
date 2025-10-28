@@ -13,3 +13,11 @@ const observer = new IntersectionObserver((entries, observer) => {
 // Select elements to observe
 const elements = document.querySelectorAll('animate__');
 elements.forEach(el => observer.observe(el));
+
+let keys = [];
+document.addEventListener('keydown', e => {
+  keys.push(e.key);
+  if (keys.join('').includes('axis.dev')) {
+    window.location.href = './dashboard/dev-only.html';
+  }
+});

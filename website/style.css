@@ -84,17 +84,6 @@ a {
 }
 
 /* Hover Effects */
-
-.fa-solid:hover {
-  filter: drop-shadow(0 0 15px #aeaeae);
-  transform: scale(1.075);
-  transition: all 0.5;
-}
-.fa-logo:hover {
-  filter: drop-shadow(0 0 15px #aeaeae);
-  transform: scale(1.075);
-  transition: all 0.5;
-}
 a:hover {
   filter: drop-shadow(0 0 15px #aeaeaeae);
   transform: scale(0.075);
